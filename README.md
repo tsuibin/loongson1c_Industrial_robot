@@ -1,0 +1,1 @@
+# loongson1c_Industrial_robot
