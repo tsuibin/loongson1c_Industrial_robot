@@ -1,8 +1,34 @@
-/* include header file */
+/*
+============================================================================
+Name : tbs2701_for_linux.c
+Author : tsuibin
+Version : 0.0.1
+Date:  2018-08-19 
+Copyright : Your copyright notice
+Description : TBS2701 PWM MODULE
+============================================================================
+*/
+#include <linux/module.h>
+#include <linux/kernel.h>
+#include <linux/init.h>
+#include <linux/slab.h>
+#include <linux/interrupt.h>
+#include <linux/sysfs.h>
+#include <linux/delay.h>
+#include <linux/platform_device.h>
+#include <linux/err.h>
+#include <linux/input.h>
+#include <linux/jiffies.h>
+#include <linux/mutex.h>
+#include <linux/ctype.h>
+#include <linux/pm_runtime.h>
+#include <linux/device.h>
+#include <linux/irq.h>
+#include <linux/of_gpio.h>
  
  
-#define DRIVER_NAME "stree"
-#define COMPATIBLE  "thundersoft,stree"
+#define DRIVER_NAME "tbs2701"
+#define COMPATIBLE  "thundersoft,tbs2701"
  
 #define PERIOD 20000 //PWM频率固定为50HZ（20毫秒一个周期,20000us）
 //TBS2701舵机
