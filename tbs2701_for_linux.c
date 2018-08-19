@@ -4,7 +4,7 @@ Name : tbs2701_for_linux.c
 Author : tsuibin
 Version : 0.0.1
 Date:  2018-08-19 
-Copyright : WSYU Linux Group
+Copyright : WSYU Linux Group Base on thundersoft
 Description : TBS2701 PWM MODULE
 ============================================================================
 */
