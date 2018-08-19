@@ -4,7 +4,7 @@ Name : tbs2701_for_linux.c
 Author : tsuibin
 Version : 0.0.1
 Date:  2018-08-19 
-Copyright : Your copyright notice
+Copyright : WSYU Linux Group
 Description : TBS2701 PWM MODULE
 ============================================================================
 */
@@ -28,7 +28,7 @@ Description : TBS2701 PWM MODULE
  
  
 #define DRIVER_NAME "tbs2701"
-#define COMPATIBLE  "thundersoft,tbs2701"
+#define COMPATIBLE  "wsyu linux group,tbs2701"
  
 #define PERIOD 20000 //PWM频率固定为50HZ（20毫秒一个周期,20000us）
 //TBS2701舵机
