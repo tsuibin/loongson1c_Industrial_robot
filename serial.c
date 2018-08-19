@@ -1,3 +1,14 @@
+/*
+============================================================================
+Name : serial.c
+Author : tsuibin
+Version : 0.0.1
+Date:  2018-08-19 
+Copyright : WSYU Linux Group
+Description : serial test code
+============================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
