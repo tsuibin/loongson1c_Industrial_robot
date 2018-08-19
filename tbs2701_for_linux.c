@@ -1,4 +1,4 @@
-/* 2007 by tsuibin */
+/* include header file */
  
  
 #define DRIVER_NAME "stree"
